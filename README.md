@@ -36,6 +36,20 @@ JobTracker is a Django REST Framework based backend application for tracking job
 | Applications List | `/applications-page/` |
 | Stats Dashboard | `/dashboard-page/` |
 
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/login page.png)
+
+### Applications List
+![Applications List](screenshots/application page.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Interview Rounds
+![Interview Rounds](screenshots/interview-round page.png)
+
 ## Setup Instructions
 
 1. Clone the repository
