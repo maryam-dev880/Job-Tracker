@@ -18,6 +18,7 @@
             <a class="nav-link text-white d-inline" href="{% url 'dashboard' %}">Dashboard</a>
             <a class="nav-link text-white d-inline" href="{% url 'interviewround_list' %}">Interview Rounds</a>
             <a class="nav-link text-white d-inline" href="{% url 'add_application' %}">Add Application</a>
+            <a class="nav-link text-white d-inline" href="{% url 'add_interviewround' %}">Add Interview Round</a>
             <form method="post" action="{% url 'logout' %}" class="d-inline">
                 {% csrf_token %}
                 <button type="submit" class="btn btn-link nav-link text-white d-inline" style="border:none;">Logout</button>
